@@ -1,7 +1,6 @@
 var slider = document.querySelector('.slider');
 var sliderImg = slider.clientWidth
 var imgChuyen = document.querySelectorAll('.slider-item')
-
 var imgLength = imgChuyen.length
 
 var max = sliderImg * imgLength
