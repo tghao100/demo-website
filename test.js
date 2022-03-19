@@ -1,3 +1,4 @@
+
 var slider = document.querySelector('.slider');
 var sliderImg = slider.clientWidth
 var imgChuyen = document.querySelectorAll('.slider-item')
@@ -5,7 +6,7 @@ var imgLength = imgChuyen.length
 
 var max = sliderImg * imgLength
 max -= sliderImg
-var rigth = document.querySelector('.i-right')
+var rigth = new Hammer (document.querySelector('.i-right'))
 var left = document.querySelector('.i-left')
 var sliderContainer = document.querySelector('.slider-container')
 var chuyen = 0
@@ -18,9 +19,11 @@ function next(){
     sliderContainer.style.marginLeft = '-' + chuyen + 'px'
 }
 
-rigth.onclick = function () {
+rigth.onswipe = function () {
     next()
 }
+
+console.log(rigth)
 
 function back(){
     if(chuyen == 0)

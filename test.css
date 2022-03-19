@@ -1711,6 +1711,8 @@ html {
     .nav {
         top: 0;
         margin-top: 30px;
+        width: 100%;
+        justify-content: unset;
     }
 
     .nav-list {
@@ -1721,6 +1723,7 @@ html {
         display: none;
     }
 
-/* 
-    .moon-item {} */
+    .moon-item {
+        padding-left: 30%;
+    }
 }
