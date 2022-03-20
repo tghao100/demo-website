@@ -6,7 +6,7 @@ var imgLength = imgChuyen.length
 
 var max = sliderImg * imgLength
 max -= sliderImg
-var rigth = new Hammer (document.querySelector('.i-right'))
+var rigth = document.querySelector('.i-right')
 var left = document.querySelector('.i-left')
 var sliderContainer = document.querySelector('.slider-container')
 var chuyen = 0
@@ -19,7 +19,7 @@ function next(){
     sliderContainer.style.marginLeft = '-' + chuyen + 'px'
 }
 
-rigth.onswipe = function () {
+rigth.onclick = function () {
     next()
 }
 

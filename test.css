@@ -368,6 +368,40 @@ html {
     font-size: 18px;
 }
 
+/* contact-card-tablet */
+
+.contact-card-tablet {
+    margin-top: 144px;
+    display: none;
+}
+
+.contact-card-repair-tablet {
+    padding: 0 24px;
+}
+
+.contact-card-repair-tablet i {
+    margin-bottom: 15px;
+    font-size: 38px;
+}
+
+.contact-card-repair-tablet h2 {
+    line-height: 1.4;
+}
+
+.contact-card-repair-tablet h2:hover {
+    color: rgb(255, 102, 0);
+    transition: all 0.3s;
+}
+
+.contact-card-repair-tablet p {
+    margin-top: 15px;
+    color: grey;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+/* end contact-card-tablet */
+
 .contact-container-img {
     /* margin-top: 96px; */
     margin: 96px 0;
@@ -1636,16 +1670,22 @@ html {
     }
 
     .slider-direction {
-        margin-top: 240px;
-        font-size: 50px;
+        margin-top: 0px;
+        /* bottom: 0; */
+        top: 69%;
+        margin-left: 39%;
+        font-size: 40px;
     }
 
     .slider-direction-left {
-        padding-left: 10px;
+        display: block;
+        padding-right: 15px;
+        padding-left: 0;
     }
 
     .slider-direction-right {
-        padding-left: 644px;
+        padding-left: 0;
+        display: block;
     }
     
     .header {
@@ -1663,6 +1703,163 @@ html {
 
     .search {
         display: none;
+    }
+
+    .contact-container {
+        margin: 96px 15px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+    }
+
+    .contact-item-about {
+        width: 100%;
+    }
+
+    .contact-item-about-text {
+        margin: 0;
+    }
+
+    .about-text-h1 {
+        font-size: 30px;
+    }
+
+    .contact-item-about-btn {
+        margin: 48px 0;
+        text-align: center;
+    }
+
+    .contact-item-img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact-item-img img {
+        height: 100%;
+    }
+
+    .contact-card {
+        flex-direction: column;
+    }
+
+    .contact-card-repair {
+        margin-bottom: 30px;
+    }
+
+    .container-text {
+        top: 0;
+        width: 100%;
+        padding: 10px 15px;
+        margin: 0;
+    }
+
+    .contact-container-img {
+        width: 100%;
+    }
+
+    .container-text h1 {
+        width: 100%;
+    }
+
+    .container-btn {
+        width: 100%;
+    }
+
+    .container-number {
+        margin-top: -15%;
+        padding: 0 50px;
+    }
+
+    .container-number-item {
+        width: 100%;
+    }
+
+    .container-number-card {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mile {
+        padding: 10px 13px;
+        width: 130px;
+        text-align: center;
+    }
+
+    .mile span {
+        font-size: 30px;
+    }
+
+    .project-img {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project-img-card {
+        width: 100%;
+    }
+
+    .modal-img {
+        display: none;
+    }
+
+    .img-hover:hover {
+        filter: brightness(50%);
+    }
+
+    .project-img-card:hover i {
+        display: none;
+    }
+
+    .quanlity-container {
+        flex-direction: column;
+        margin: 96px 15px;
+    }
+
+    .quanlity-item-text {
+        width: 100%;
+    }
+
+    .about-btn-btn1 {
+        width: 100%;
+    }
+
+    .quanlity-item-img {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .position-text-content-item {
+        width: 100%;
+    }
+
+    .text-content-item-card-small {
+        min-width: 100%;
+    }
+
+    .text-content-item-card-small p {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .position-silder-left {
+        display: block;
+    }
+
+    .position-silder-right {
+        display: block;
+        padding: 0
+    }
+
+    .quanlity-position {
+        top: 0;
+        font-size: 45px;
+        margin-top: 150%;
+    }
+
+    .contact-update {
+        margin-top: 96px;
+        flex-direction: column;
     }
 }
 
@@ -1726,4 +1923,214 @@ html {
     .moon-item {
         padding-left: 30%;
     }
+
+    .contact-container {
+        margin: 96px 30px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+    }
+
+    .contact-item-about {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-item-img {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .contact-card {
+        display: none;
+    } 
+
+    .contact-card-tablet {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .contact-card-repair-tablet {
+        width: 300px;
+        padding: 0 0 40px 0;
+    }
+
+    .contact-container-img {
+        width: 100%;
+    }
+
+    .container-text {
+        margin-top: -60%;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 30px;
+    }
+
+    .container-number {
+        padding: 0 48px;
+        margin-top: -15%;
+    }
+
+    .container-number-item {
+        height: 300px;
+    }
+
+    .container-number-card {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mile {
+        padding: 20px 103px;
+    }
+
+    .container-project {
+        margin-top: 300px;
+        width: 100%;
+    }
+
+    .img-hover {
+        width: 215px;
+        height: 145px;
+    }
+
+    .quanlity-container {
+        margin: 96px 30px;
+    }
+
+    .quanlity-container {
+        flex-direction: column;
+    }
+
+    .quanlity-item-text {
+        width: 100%;
+    }
+
+    .quanlity-item-img {
+        width: 100%;
+    }
+
+    .quanlity-modal-img {
+        width: 100%;
+    }
+
+    .quanlity-item-img-card {
+        width: 335px;
+        height: 220px;
+    }
+
+    .modal-position-text-content{
+        width: 100%;
+    }
+
+    .quanlity-position {
+        width: 100%;
+        font-size: 90px;
+        position: absolute;
+        display: flex;
+        opacity: 0.8;
+        color: rgba(#ddd, #ddd, #ddd, 0.8);
+        z-index: 1;
+    }
+    
+    .position-silder-left {
+        display: block;
+        width: 50%;
+    }
+    
+    .position-silder-right {
+        display: block;
+        width: 50%;
+        padding: 0;
+    }
+
+    .position-i-right {
+        width: 100%;
+        margin-right: 100%;
+    }
+
+    .position-silder-left i:hover, .position-silder-right i:hover {
+        opacity: 1;
+        color: rgb(255, 102, 0);
+    }
+
+    .contact-update {
+        flex-direction: column;
+    }
+
+    .update-item {
+        width: 100%;
+    }
+
+    .update-item-img {
+        display: none;
+    }
+
+    .fotter-item {
+        flex-direction: column;
+    }
+
+    .fotter-item-text {
+        width: 100%;
+    }
+    
+    .fotter-item-list ul {
+        flex-direction: column;
+    }
+
+    .fotter-item-list ul li {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .fotter-item-2020 p {
+        text-align: center;
+        padding: 30px 0 66px 0;
+    }
+
+    .about-content-container-to {
+        top: 25%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .about-content-container-info {
+        margin: 96px 30px;
+    }
+
+    .about-content-container-info-item {
+        flex-direction: column;
+    }
+
+    .about-content-container-info-card-text {
+        width: 100%;
+    }
+
+    .about-content-container-info-card-img {
+        width: 100%;
+    }
+
+    .item-offer {
+        flex-direction: column;
+    }
+
+    .card-offer-img {
+        display: none;
+    }
+
+    .card-offer-text {
+        width: 100%;
+    }
+
+    /* .quanlity-modal-img:hover .position-silder-left, .quanlity-modal-img:hover .position-silder-right {
+        display: block;
+    } */
 }
